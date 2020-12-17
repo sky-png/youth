@@ -54,9 +54,6 @@ jobs:
           node Task/Youth_Read.js
         env:
           YOUTH_READ: ${{ secrets.YOUTH_VIDEO4 }}
-         - name: '运行 【中青看点账号2-视频观看2-54个】'
-        if: env.YOUTH_VIDEO5
-        run: |
-          node Task/Youth_Read.js
-        env:
-          YOUTH_READ: ${{ secrets.YOUTH_VIDEO5 }}
+          key:  
+       
+          
